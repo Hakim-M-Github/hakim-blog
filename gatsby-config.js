@@ -5,7 +5,7 @@ module.exports = {
       name: `Hakim Mliki`,
       summary: `who lives and works in Germany building useful things with JavasScript/TypeScript.`,
     },
-    description: `My persona garden to share my ideas and knowledge`,
+    description: `My personal garden to share my ideas and knowledge`,
     siteUrl: `https://hakimmliki.com/`,
     social: {
       twitter: `-`,
