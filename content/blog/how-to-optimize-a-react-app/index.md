@@ -12,6 +12,22 @@ description: Summary of the most and best used techniques to optimize your react
 - Render **the least amount of components** in a page.
 - **Re-render components the least amount** of time.
 
+
+## Table of Contents
+1. [Debounce callbacks on DOM events](#1-debounce-callbacks-on-dom-events)
+2. [Use the production build](#2-use-the-production-build)
+3. [Virtualise  long lists(>50) of data in React](#3-virtualise-long-lists50-of-data-in-react)
+4. [Tree shake your react application modules](#4-tree-shake-your-react-application-modules)
+5. [View Package Sizes in a React App with Webpack Analyzer](#5-view-package-sizes-in-a-react-app-with-webpack-analyzer)
+6. [Containerisation of State within Child Components](#6-containerisation-of-state-within-child-components)
+7. [Profile React Components with the Devtools Profiler](#7-profile-react-components-with-the-devtools-profiler)
+8. [Optimize Function Components with React.memo](#8-optimize-function-components-with-reactmemo)
+9. [Memoized Values with React useMemo](#9-memoized-values-with-react-usememo)
+10. [Memoize a Function with useCallback in React](#10-memoize-a-function-with-usecallback-in-react)
+11. [Add the why-did-you-render package](#11-add-the-why-did-you-render-package)
+12. [Code Split Components with React Lazy OR Loadable Components](#12-code-split-components-with-react-lazy-or-loadable-components)
+13. [Conclusion](#conclusion)
+
 ## 1. Debounce callbacks on DOM events
 
 → Add a [debounce](https://lodash.com/docs/4.17.15#debounce) on rapid DOM event calls e.g. search while typing or a mouse event... 
